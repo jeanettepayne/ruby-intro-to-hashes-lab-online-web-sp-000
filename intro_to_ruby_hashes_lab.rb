@@ -11,9 +11,10 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	monopoly = {railroads: {}}
-	monopoly[:railroads] << :pieces
-	monopoly[:railroads][:pieces] = 4
+	monopoly = {railroads: {
+	  :railroads = 4
+	}}
+	
 end
 
 def monopoly_with_third_tier
